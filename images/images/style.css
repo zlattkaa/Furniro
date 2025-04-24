@@ -1,0 +1,41 @@
+:root{
+    --black:#000000
+}
+
+body,html{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0px auto;
+
+}
+.header{
+    margin-top: 29px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header-content_last img{
+    margin-right: 45px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 75px;
+    color: #000;
+}
+nav a: :last-of-type{
+    margin right: 0;
+}
